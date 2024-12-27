@@ -1,0 +1,105 @@
+/* Wrapper to center the content */
+.privacy-policy-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background: linear-gradient(135deg, #f3f4f7, #ffffff);
+  padding: 20px;
+}
+
+/* Main container styling */
+.privacy-policy-container {
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+/* Header styles */
+.page-header {
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Section styles */
+.content-section,
+.terms-section,
+.disclaimer-section,
+.user-agreement-section {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.content-section p,
+.terms-section p,
+.disclaimer-section p,
+.user-agreement-section p {
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #555;
+}
+
+.terms-section h2,
+.disclaimer-section h2,
+.user-agreement-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #444;
+  text-align: center;
+}
+
+/* Footer styles */
+.page-footer {
+  margin-top: 20px;
+}
+
+.page-footer button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.page-footer button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .privacy-policy-container {
+    padding: 20px;
+  }
+
+  .page-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-section p,
+  .terms-section p,
+  .disclaimer-section p,
+  .user-agreement-section p {
+    font-size: 0.9rem;
+  }
+}
+img{
+  height: 200px;
+  width:200px;
+}
